@@ -41,22 +41,24 @@
 
       .hero {
         position: relative;
-        margin-bottom: 5.5rem;
+        margin-bottom: 7rem;
+        overflow: visible;
       }
 
       .cover {
         display: block;
         width: 100%;
-        aspect-ratio: 64 / 25;
+        aspect-ratio: 6.45 / 1;
         object-fit: cover;
+        object-position: center;
       }
 
       .logo {
         position: absolute;
-        bottom: -4.5rem;
+        bottom: -5.75rem;
         left: clamp(1.25rem, 4vw, 3rem);
         display: block;
-        width: clamp(7rem, 14vw, 10rem);
+        width: clamp(10rem, 20vw, 14rem);
         aspect-ratio: 1;
         object-fit: cover;
         border: 0.4rem solid #090909;
@@ -105,12 +107,12 @@
 
       @media (max-width: 32rem) {
         .hero {
-          margin-bottom: 4.25rem;
+          margin-bottom: 5.25rem;
         }
 
         .logo {
-          bottom: -3.5rem;
-          width: 7rem;
+          bottom: -4.25rem;
+          width: 8.5rem;
           border-width: 0.3rem;
         }
       }
@@ -119,7 +121,7 @@
   <body>
     <main>
       <header class="hero">
-        <img class="cover" src="assets/cover.jpg" alt="Turquoise audio waveforms on a dark background">
+        <img class="cover" src="assets/cover.jpg" alt="White audio waveforms on a dark background">
         <img class="logo" src="assets/logo.png" alt="534N UK">
       </header>
       <div class="content">
