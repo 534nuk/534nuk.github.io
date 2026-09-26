@@ -41,7 +41,7 @@
 
       .hero {
         position: relative;
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
         overflow: visible;
       }
 
@@ -55,7 +55,7 @@
 
       .logo {
         position: absolute;
-        bottom: -5.75rem;
+        bottom: -3rem;
         left: clamp(1.25rem, 4vw, 3rem);
         display: block;
         width: clamp(10rem, 20vw, 14rem);
@@ -107,11 +107,15 @@
 
       @media (max-width: 32rem) {
         .hero {
-          margin-bottom: 5.25rem;
+          margin-bottom: 3.25rem;
+        }
+
+        .cover {
+          aspect-ratio: 3.8 / 1;
         }
 
         .logo {
-          bottom: -4.25rem;
+          bottom: -2.5rem;
           width: 8.5rem;
           border-width: 0.3rem;
         }
