@@ -24,10 +24,11 @@
       }
 
       body {
-        display: grid;
+        display: flex;
         min-height: 100vh;
         min-height: 100svh;
-        place-items: center;
+        justify-content: center;
+        overflow-y: auto;
         padding: 1rem;
         background: #090909;
       }
@@ -37,6 +38,7 @@
         width: min(34rem, calc(100vw - 2rem));
         justify-items: center;
         gap: 2rem;
+        margin-block: auto;
       }
 
       .logo {
